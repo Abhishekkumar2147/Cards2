@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: #FFE53B;
+            background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card {
+            height: 540px;
+            width: 380px;
+            background-color: white;
+            border-radius: 15px;
+        }
+
+        .card img {
+            height: 180px;
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .card h2 {
+            font-size: 30zpx;
+            font-weight: 1500;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .card p {
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80%;
+            margin-top: 10px;
+            margin-left: 50px;
+            font-weight: 500;
+        }
+
+        .amount-box {
+            height: 60px;
+            width: 80%;
+            background-color: rgb(102, 125, 165);
+            margin: 25px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .amount-box i{
+            font-size: 20px;
+            margin:18px;
+        }
+        .amount-box p{
+            font-size: 18px;
+            font-weight: 900;
+        }
+        .amount-box a{
+            font-size: 18px;
+            margin:20px;
+            font-weight: 700;
+            color:rgb(18, 18, 201);
+        }
+
+        button {
+            height: 60px;
+            width: 80%;
+            background-color: rgb(5, 5, 45);
+            margin: 25px;
+            margin-top: 5px;
+            color: white;
+            font-weight: 600;
+            font-size: 20px;
+            border-radius: 10px;
+        }
+
+        button:hover {
+            border: 3px solid white;
+        }
+
+        .cancel-box a {
+            text-decoration: none;
+            color: rgb(65, 63, 63);
+            font-size: 20px;
+            display: flex;
+            font-weight: bolder;
+            text-align: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./image1.webp">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. doloremque incidunt praesentium unde itaque quod!</p>
+            <div class="amount-box">
+                <i class="fa-solid fa-music"></i>
+                <p>Annual Plan<br>$99.9/year</p>
+                <a href="#">Change</a>
+            </div>
+            <button> Proceed to payment</button>
+            <div class="cancel-box">
+                <a href="#">Cancel Order</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
